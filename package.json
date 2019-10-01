@@ -1,0 +1,16 @@
+{
+  "name": "twitter-data-parser",
+  "version": "0.0.1",
+  "description": "because twitter sux",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "braxeatssnacks",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.5.0",
+    "request": "^2.88.0"
+  }
+}

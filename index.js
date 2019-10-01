@@ -77,10 +77,8 @@ const COLUMNS = {
 
 
 const main = async () => {
-  // const username = await prompt('What is your username? (exclude the @)') || 'braxeatssnacks';
-  // const fpath = await prompt(`Where is the \`tweet.js\` export file? [${DEFAULT_FPATH}]`) || DEFAULT_FPATH;
-  const username = 'braxeatssnacks';
-  const fpath = DEFAULT_FPATH;
+  const username = await prompt('What is your username? (exclude the @)') || 'braxeatssnacks';
+  const fpath = await prompt(`Where is the \`tweet.js\` export file? [${DEFAULT_FPATH}]`) || DEFAULT_FPATH;
 
   const collection = UNSAFE_unpackTweets(fpath);
 
